@@ -27,7 +27,7 @@ export class HomeComponent {
   }
 
   ngOnInit() {
-    console.log('hello `Home` component');
+    console.log('This is the `Home` component');
     // this.title.getData().subscribe(data => this.data = data);
   }
 

@@ -10,7 +10,7 @@ console.log('`Detail` component loaded asynchronously');
 @Component({
   selector: 'detail',
   template: `
-    <h1>Hello from Detail</h1>
+    <h1>Detail component</h1>
     <router-outlet></router-outlet>
   `
 })
@@ -20,7 +20,7 @@ export class DetailComponent {
   }
 
   ngOnInit() {
-    console.log('hello `Detail` component');
+    console.log('This is the `Detail` component');
   }
 
 }
